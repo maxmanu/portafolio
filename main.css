@@ -636,5 +636,16 @@ input[type="submit"]:hover{
     .up{
         right: 2rem;
     }
+    .text-responsive{
+        font-size: 15px;
+    }
 }
 /*End media queries*/
+
+.max-image{
+    border-radius: 13px;
+}
+
+.max-contacto{
+    text-align: center;
+}
