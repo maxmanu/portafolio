@@ -318,6 +318,11 @@ li{
     margin: auto;
     transform: rotate(-45deg);
 }
+.icon-container:hover{
+    transform: rotate(405deg);
+    transition: .4s all;
+}
+
 /*End services*/
 
 /*Start portfolio*/
@@ -523,6 +528,10 @@ input[type="submit"]:hover{
         background-size: cover;
     }
 
+    .wrapper{
+        padding: 0 20px 0 20px;
+    }
+
     .landing-text h1{
         font-size: 15rem;
     }
@@ -579,9 +588,14 @@ input[type="submit"]:hover{
     .timeline .date::after{
         left: -5.9rem;
     }
+    p {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width:600px){
+    
+
     .menu-toggler{
         top: 2rem;
         right: 2rem;
@@ -648,4 +662,9 @@ input[type="submit"]:hover{
 
 .max-contacto{
     text-align: center;
+}
+
+.responsive{
+    width: 100%;
+    height: auto;
 }
